@@ -27,9 +27,8 @@ git clone https://gitlab.com/pessoal1761115/my-confs/kitty-config#
 2. **Symlink to your Kitty config folder**:
 
 ```bash
-mkdir -p ~/.config/kitty
-ln -sfn ~/configs/kitty-config/kitty.conf ~/.config/kitty/kitty.conf
-ln -sfn ~/configs/kitty-config/themes ~/.config/kitty/themes
+chmod +x ./setup_kitty.sh
+./setup_kitty.sh
 ```
 
 ---
