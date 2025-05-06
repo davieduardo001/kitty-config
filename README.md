@@ -21,7 +21,7 @@ kitty-config/
 1. **Clone the repository**:
 
 ```bash
-git clone https://gitlab.com/pessoal1761115/my-confs/kitty-config#
+git clone https://gitlab.com/pessoal1761115/my-confs/kitty-config $HOME/configs/kitty
 ```
 
 2. **Symlink to your Kitty config folder**:
