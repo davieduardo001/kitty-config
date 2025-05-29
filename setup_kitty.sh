@@ -1,5 +1,8 @@
 #!/bin/bash
 
+chmod +x ./scripts/install_jetbrains_nerd_font.sh
+./scripts/install_jetbrains_nerd_font.sh
+
 # Remove existing kitty.conf if it exists
 if [ -f ~/.config/kitty/kitty.conf ]; then
     echo "Removing existing kitty.conf..."
